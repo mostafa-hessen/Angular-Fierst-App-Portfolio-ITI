@@ -1,0 +1,37 @@
+.img{
+ 
+    // height: 350px;
+    width: 75%;
+    min-height: 290px;
+    max-height: 250px;
+    border-radius: 7px;
+    margin: auto;
+    // object-fit: contain;
+    overflow: hidden;
+    
+     
+}
+ .img img{
+    width: 100%;
+ }
+
+.content{
+    line-height: 1.5;
+}
+.content p{
+    font-size: 14px;
+    color: gray;
+}
+.row{
+    // height: 30vh;
+}
+@media (max-width:769px) {
+    .col-content {
+        margin-top: 40px;
+    }
+    .content{
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+}
